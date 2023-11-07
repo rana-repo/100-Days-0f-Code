@@ -1,5 +1,8 @@
 #Caesar Cipher
 
+from art import logo 
+
+
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
@@ -30,5 +33,5 @@ def encrypt(plain_text, shift_amount):
 # Todo- 3: call the encrypt function and pass in the user inputs. you should be able to test the code and
 # encrypt a message.
  
- encrypt(plain_text=text,shift_amount=shift )
+encrypt(plain_text=text,shift_amount=shift )
 
