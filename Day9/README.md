@@ -30,4 +30,36 @@ for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
 
+
+### Nesting
+
+Capitals = {
+    "France": "Paris",
+    "Germany": "Berlin",
+}
+
+Nesting a list/Dictionary in a Disctionary
+
+travel_log = {
+    "France": {"Cities_visited": ["Paris", "Lille", "Dijon], "total_visits": 12},
+    "Germany": ["Berlin", "Hamburg"]
+}
+
+
+Nesting Dictionary in a list
+
+travel_log = [
+    {
+        "country": "France",
+        "cities_visited": ["Paris" , "Lille", "Dijon"],
+        "total_visits": 12
+    },
+    {
+        "country" : "germany",
+        "cities_visited: ["Berlin", "Hamburg", "Stuttgart"],
+        "total_visits": 5
+    },
+]
+
+
 ## Secret Auction\
